@@ -32,6 +32,43 @@ function Hero() {
         <button className="hero-btn__right"></button>
       </div>
 
+      <div className="hero-footer">
+        <ul className="hero-list">
+          <li className="hero-item">
+            <h4 className="hero-item__title">105 <span>lbs</span>
+            </h4>
+            <p className="hero-item__text">Net Weight</p>
+          </li>
+          <li className="hero-item">
+            <h4 className="hero-item__title">26 <span>
+            mph</span>
+            </h4>
+            <p className="hero-item__text">Top Speed</p>
+          </li>
+          <li className="hero-item">
+            <h4 className="hero-item__title">38 <span>
+            miles</span>
+            </h4>
+            <p className="hero-item__text">Max Range</p>
+          </li>
+          <li className="hero-item">
+            <h4 className="hero-item__title">89 <span>
+            nm</span>
+            </h4>
+            <p className="hero-item__text">Max Torques</p>
+          </li>
+          <li className="hero-item">
+            <h4 className="hero-item__title">22% <span>slope</span>
+            </h4>
+            <p className="hero-item__text">Hill Climbing</p>
+          </li>
+          <li className="hero-item">
+            <h4 className="hero-item__title">2x</h4>
+            <p className="hero-item__text">Hydralic Disc Brakes</p>
+          </li>
+        </ul>
+      </div>
+
       </div>
     </div>
   )

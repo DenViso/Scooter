@@ -168,6 +168,7 @@ margin-bottom: 5rem;
   border: none;
   background-color: inherit;
   display: contents;
+  cursor: pointer;
 
 }
 .hero-btn::before{
@@ -200,13 +201,11 @@ letter-spacing: 0.01rem;
   background-repeat: no-repeat;
   background-position: right;
 }
+
 .hero-section{
-  position: absolute;
-  right: 13rem;
-  bottom: -18rem;
-
+  position: relative;
+ 
   display: flex;
-
 }
 
 .hero-section>p{
@@ -218,7 +217,10 @@ line-height: 18rem; /* 153.333% */
 letter-spacing: 0.15rem;
 color: #fff;
 text-shadow: 0px 0px 2px #0b0b0b;
+position: absolute;
+right: 14rem;
 }
+
 
 .hero-btn__left{
   width: 40px;
@@ -230,10 +232,10 @@ text-shadow: 0px 0px 2px #0b0b0b;
   background-position: center;
   border: none;
   background-color: inherit;
-
+  cursor: pointer;
   position: absolute;
-  right: -82px;
-  bottom: 120px;
+  right: 10rem;
+  bottom: -10rem;
 }
 
 .hero-btn__right{
@@ -246,9 +248,109 @@ text-shadow: 0px 0px 2px #0b0b0b;
   background-position: center;
   border: none;
   background-color: inherit;
-
+  cursor: pointer;
   position: absolute;
-  right: -120px;
-  bottom: 120px;
+  right: 7.7rem;
+  bottom: -10rem;
   
+}
+.hero-footer{
+  width: 90vw;
+  margin: 300px auto;
+ margin-left: 5%;
+  
+}
+.hero-list{
+  width: 100%;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-item{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+.hero-item__title{
+  color: #42454A;
+text-align: center;
+font-family: Ubuntu;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 4rem */
+}
+.hero-item__title>span{
+  color: #42454A;
+font-family: Ubuntu;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+.hero-item__text{
+  color: #42454A;
+text-align: center;
+font-family: Ubuntu;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 1.69rem */
+}
+
+/* PRODUCT STYLING */
+.wrap-product{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.prod-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+.product-title{
+  color: #42454A;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 6rem */
+}
+.product-text{
+  color: #42454A;
+text-align: center;
+font-family: Ubuntu;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 2.8rem */
+}
+.prod-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+}
+.prod-list{
+  width:30vw;
+}
+.prod-item{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content:flex-start ;
+  gap: .5rem;
+  margin-bottom: 2rem;
 }
