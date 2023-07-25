@@ -4,8 +4,8 @@ const ProductInfo = () => {
   return (
     <div className= "wrap-product" >
       <div className="prod-header">
-        <h1 className="product-title">Product Information</h1>
-        <p className="product-text">Our Scooter has following unique design and technology features:</p>
+        <h1 className="title">Product Information</h1>
+        <p className="text">Our Scooter has following unique design and technology features:</p>
       </div>
 
       <div className="prod-info">

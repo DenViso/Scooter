@@ -1,6 +1,21 @@
-
+import { useState } from "react";
 
 function Hero() {
+  const [count , setCount] = useState(1);
+
+  const handlerCountIncrease =() => {
+    if (count === 21){
+       return setCount(1)
+    }
+    setCount(count + 1);
+  }
+  const handlerCountDecrease =() => {
+    if (count === 1){
+      return setCount(21)
+    }
+    setCount(count - 1);
+
+  }
   return (
     <div className='wrap-hero'>
       <div className="hero-top">
@@ -27,9 +42,15 @@ function Hero() {
       </div>
 
       <div className="hero-section">
-        <p>01</p>
-        <button className="hero-btn__left"></button>
-        <button className="hero-btn__right"></button>
+        <p>{count < 10 
+        ? `0${count}` 
+        :count}</p>
+        <button className="hero-btn__left"
+        onClick={handlerCountIncrease}
+        ></button>
+        <button className="hero-btn__right"
+        onClick={handlerCountDecrease}
+        ></button>
       </div>
 
       <div className="hero-footer">
