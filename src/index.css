@@ -885,6 +885,9 @@ cursor: pointer;
 top: -8rem;
 left: 0rem;
 }
+.footer-img{
+	overflow-x: clip;
+}
 .footer-img>img{
 	animation-name: scooter-footer;
 	animation-duration: 6.9s;
