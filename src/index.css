@@ -701,7 +701,14 @@ html {
 	gap: 3rem;
 	border: .3px solid #42454a48;
 }
-.card:hover{
+.cardhover{
+	height: 25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 3rem;
+	border: .3px solid #42454a48;
 	box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(49, 49, 49, 0.02), 0px 20px 13px 0px rgba(49, 49, 49, 0.05), 0px 38.51852035522461px 25.481481552124023px 0px rgba(49, 49, 49, 0.06);
 	border: none;
 }

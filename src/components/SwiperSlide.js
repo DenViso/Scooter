@@ -1,27 +1,41 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {  useState } from 'react';
 import SwiperBut from "./SwiperBut"
+
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards'
 
+ 
+
 export default () => {
+const [isActive, setIsActive] = useState(false);
+  
+ 
+console.log(isActive)
+
   return (
+   
+
     <Swiper
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      
     >
-      <SwiperSlide><div className="card">
+      <SwiperSlide>
+      <div className={isActive ?  'cards':'  cardshover' }>
           <img src="./images/testimonials/stars.png" alt="" />
           <h3>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</h3>
           <div className="card-cont">
             <img src="./images/testimonials/man1.png" alt="" />
             <p>Serhiy Hipskyy <br /><span>CEO Universal</span></p>
           </div>
-        </div></SwiperSlide>
+        </div>
+        </SwiperSlide>
       <SwiperSlide><div className="card">
           <img src="./images/testimonials/stars.png" alt="" />
           <h3>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</h3>
@@ -113,7 +127,9 @@ export default () => {
           </div>
         </div></SwiperSlide>
       
-        <SwiperBut/>
+        <SwiperBut 
+        isActive={isActive}
+        setIsActive={setIsActive}/>
     </Swiper>
   );
 };
