@@ -1,6 +1,6 @@
 import { useState } from "react";
-import playBtn from "./images/Hero/play button.svg"
-import scooterMain from "./images/Hero/scootr-main.svg"
+import playBtn from "./images/Hero/playButton.svg"
+import scooterMain from "./images/Hero/scootrMain.svg"
 
 function Hero() {
   const [count , setCount] = useState(1);
