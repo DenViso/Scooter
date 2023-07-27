@@ -1,4 +1,7 @@
 import React from 'react'
+import leftImg from './images/Gallery/left.svg'
+import rightImg1 from './images/Gallery/right1.svg'
+import rightImg2 from './images/Gallery/right2.svg'
 
 function Gallery() {
   return (
@@ -8,7 +11,7 @@ function Gallery() {
 
   <div className="subwrap">
   <div className="gallery-left">
-        <img src="./images/Gallery/left.svg" alt="" />
+        <img src={leftImg} alt="" />
      
       <ul className="gallery-list">
         <li className="gallery-item">
@@ -23,8 +26,8 @@ function Gallery() {
       </ul>
        </div>
        <div className="gallery-right">
-        <img src="./images/Gallery/right1.svg" alt="" className="gallery-img" />
-        <img src="./images/Gallery/right2.svg" alt="" className="gallery-img" />
+        <img src={rightImg1} alt="" className="gallery-img" />
+        <img src={rightImg2} alt="" className="gallery-img" />
        </div>
   </div>
     </div>

@@ -2,6 +2,13 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { log } from "console";
+import logo from "./images/logo.svg";
+
+
+
+
+
+
 const Header =() =>{
 
   // const[LogIn,setLogIn] = useState(false);
@@ -40,7 +47,7 @@ const Header =() =>{
   return(
     <div className="wrap-header">
         <div className="logo">
-          <img src="./images/logo.svg" alt="Logo" className="logo__img" />
+          <img src={logo} alt="Logo" className="logo__img" />
         </div>
         <div className="logo-conteiner">
             <button className="list-item"

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import playBtn from "./images/Hero/play button.svg"
+import scooterMain from "./images/Hero/scootr-main.svg"
 
 function Hero() {
   const [count , setCount] = useState(1);
@@ -33,12 +35,12 @@ function Hero() {
           <p>Watch our <br />
             video how <br />
             it works</p>
-          <img src="./images/Hero/play button.svg" alt="how it work" className="hero-img" />
+          <img src={playBtn} alt="how it work" className="hero-img" />
         </div>
       </div>
 
       <div className="imag-side">
-        <img src="./images/Hero/scootr-main.svg" alt="scooter" className="scooter-img" />
+        <img src={scooterMain} alt="scooter" className="scooter-img" />
       </div>
 
       <div className="hero-section">
