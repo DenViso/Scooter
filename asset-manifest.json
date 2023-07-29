@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Scooter/static/css/main.ab56f51d.css",
-    "main.js": "/Scooter/static/js/main.fd360ca3.js",
+    "main.css": "/Scooter/static/css/main.dcb4c3e2.css",
+    "main.js": "/Scooter/static/js/main.89e2582a.js",
     "static/media/bag.svg": "/Scooter/static/media/bag.b854cb88fba9bd58a069ffe6a36d1148.svg",
     "static/media/White.svg": "/Scooter/static/media/White.0fdba5a749f6074a1ff5ed766ed7377d.svg",
     "static/media/green.svg": "/Scooter/static/media/green.43e9300a20db64efb41e3a3509e0f562.svg",
@@ -21,11 +21,11 @@
     "static/media/playButton.svg": "/Scooter/static/media/playButton.91d23bd59cd6e08e6ef7ab72dca41cd0.svg",
     "static/media/logo.svg": "/Scooter/static/media/logo.0b2a6341d611e328a75f7e7fe0853971.svg",
     "index.html": "/Scooter/index.html",
-    "main.ab56f51d.css.map": "/Scooter/static/css/main.ab56f51d.css.map",
-    "main.fd360ca3.js.map": "/Scooter/static/js/main.fd360ca3.js.map"
+    "main.dcb4c3e2.css.map": "/Scooter/static/css/main.dcb4c3e2.css.map",
+    "main.89e2582a.js.map": "/Scooter/static/js/main.89e2582a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab56f51d.css",
-    "static/js/main.fd360ca3.js"
+    "static/css/main.dcb4c3e2.css",
+    "static/js/main.89e2582a.js"
   ]
 }
