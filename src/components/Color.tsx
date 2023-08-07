@@ -15,7 +15,7 @@ function Color() {
       <p className="text">Checkout our products colors.</p>
      </div>
       <div className="color-img__cont" id ="cont" 
-      style={{backgroundImage:`url(${bg})`, backgroundSize:"100%",}}>
+      style={{backgroundImage:`url(${bg})`, backgroundSize:"130%",}}>
      
          <div className="img-box ">
          <div className="box">

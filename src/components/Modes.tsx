@@ -39,7 +39,7 @@ function Modes() {
         </div>
 
         <div className="modes-content__section1">
-        <img src={motoBag} alt="" className="section1-img_holder " />
+        <img src={motoBag} alt="" className="section1-img_holder s2p1 " />
           <img src={bag} alt="" className="section1-img_holder s2p" />
           
           <ul className="section1-list">
